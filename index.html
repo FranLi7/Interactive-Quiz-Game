@@ -6,6 +6,17 @@
     <title>Interactive Quiz Game</title>
   </head>
   <body>
+    <div id="quiz-container">
+      <h2 id="question">Question will go here</h2>
+      <div id="choices"></div>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="result">
+      <h2 id="score">Your score:</h2>
+      <button onclick="restartQuiz()"></button>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
